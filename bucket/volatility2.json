@@ -4,7 +4,7 @@
     "homepage": "https://github.com/volatilityfoundation/volatility",
     "license": "GPL-2.0-only",
     "checkver": "github",
-    "extract_dir": "volatility2",
+    "extract_dir": "volatility_2.6_win64_standalone",
     "suggest": {
         "python": "python27"
     },
