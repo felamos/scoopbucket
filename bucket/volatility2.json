@@ -1,0 +1,20 @@
+{
+    "version": "2.6.1",
+    "description": "An advanced memory forensics framework",
+    "homepage": "https://github.com/volatilityfoundation/volatility",
+    "license": "GPL-2.0-only",
+    "checkver": "github",
+    "extract_dir": "volatility2",
+    "suggest": {
+        "python": "python27"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility_2.6_win64_standalone.zip",
+            "hash": "bb021f3b569bf8ee4a408b2e07b0662699894ff7eecd4473badf0ef0c58f2fce"
+        }
+    },
+    "bin": [
+        "volatility_2.6_win64_standalone.exe"
+    ]
+}
