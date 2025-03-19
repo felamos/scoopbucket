@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+    "description": "Interactive Delphi Reconstructor IDR (Interactive Delphi Reconstructor) a decompiler of executable files (EXE) and dynamic libraries (DLL), written in Delphi and executed in Windows32 environment.",
+    "homepage": "https://github.com/crypto2011/IDR",
+    "license": "https://github.com/crypto2011/IDR/blob/master/LICENSE",
+    "url": "https://github.com/zzhaq/Toolbox/releases/download/v1.1/idr.zip",
+    "hash": "6c8e732bfb31f734ffe9f8e942b73e0bf29abeb6445c09f6f324b80bde60b9f1",
+    "extract_dir": "idr",
+    "bin": "idr.exe",
+    "shortcuts": [
+        [
+            "idr.exe",
+            "idr"
+        ]
+    ]
+}

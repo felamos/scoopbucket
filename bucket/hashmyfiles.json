@@ -1,0 +1,18 @@
+{
+    "version": "latest",
+    "description": "HashMyFiles is a small utility that allows you to calculate the MD5, SHA1, and other hash values of files on your system.",
+    "homepage": "https://www.nirsoft.net/utils/hash_my_files.html",
+    "license": "Freeware",
+    "url": "https://www.nirsoft.net/utils/hashmyfiles-x64.zip",
+    "hash": "38ead72bb0df274156e14f7e3a258021c5dff0a345cb63f6447da581d585c8ee",
+    "bin": [
+        [
+            "HashMyFiles.exe",
+            "hashmyfiles"
+        ]
+    ],
+    "checkver": "https://www.nirsoft.net/utils/hash_my_files.html",
+    "autoupdate": {
+        "url": "https://www.nirsoft.net/utils/hashmyfiles-x64.zip"
+    }
+}

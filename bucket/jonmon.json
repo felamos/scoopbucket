@@ -1,0 +1,19 @@
+{
+    "version": "2.0",
+    "description": "JonMon is a system monitoring tool for Windows.",
+    "homepage": "https://github.com/jsecurity101/JonMon",
+    "license": "MIT",
+    "url": "https://github.com/jsecurity101/JonMon/releases/download/2.0/JonMon-x64.zip",
+    "hash": "16d8dae83bff774a3c5e91b1d762449830f639a7a1575e5cf22e0a416774743f",
+    "extract_dir": "JonMon-x64",
+    "bin": [
+        [
+            "JonMon/JonMon-Service.exe",
+            "jonmon"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jsecurity101/JonMon/releases/download/$version/JonMon-x64.zip"
+    }
+}

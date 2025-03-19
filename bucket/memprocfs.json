@@ -1,0 +1,15 @@
+{
+    "version": "5.14.7",
+    "license": "AGPL-3.0-only",
+    "description": "MemProcFS is an easy and convenient way of viewing physical memory as files in a virtual file system.",
+    "homepage": "https://github.com/ufrisk/MemProcFS",
+    "url": "https://github.com/ufrisk/MemProcFS/releases/download/v5.14/MemProcFS_files_and_binaries_v5.14.7-win_x64-20250316.zip",
+    "hash": "9e35cbed1b99010c6d15cfb912cc10e1a51e1d0cb023f295d9e919c770ad0322",
+    "bin": "MemProcFS.exe",
+    "shortcuts": [
+        [
+            "MemProcFS.exe",
+            "MemProcFS"
+        ]
+    ]
+}

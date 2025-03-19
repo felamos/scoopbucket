@@ -1,0 +1,18 @@
+{
+    "version": "1.2",
+    "description": "SealighterTI is a telemetry-based threat intelligence tool.",
+    "homepage": "https://github.com/pathtofile/SealighterTI",
+    "license": "MIT",
+    "url": "https://github.com/pathtofile/SealighterTI/releases/download/v1.2/SealighterTI.exe",
+    "hash": "3ba1181bc79b75af80c4ae7a5b81dfff240ae4ec572972dd87570eccdf28c37d",
+    "bin": [
+        [
+            "SealighterTI.exe",
+            "SealighterTI"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pathtofile/SealighterTI/releases/download/v$version/SealighterTI.exe"
+    }
+}

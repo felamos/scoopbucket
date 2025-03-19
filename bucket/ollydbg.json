@@ -1,0 +1,18 @@
+{
+    "version": "2.01",
+    "description": "OllyDbg is a 32-bit assembler-level analyzing debugger for Microsoft Windows.",
+    "homepage": "https://www.ollydbg.de/",
+    "license": "Freeware",
+    "url": "https://www.ollydbg.de/odbg201.zip",
+    "hash": "29244e551be31f347db00503c512058086f55b43c93c1ae93729b15ce6e087a5",
+    "bin": [
+        [
+            "ollydbg.exe",
+            "ollydbg"
+        ]
+    ],
+    "checkver": "https://www.ollydbg.de/version.html",
+    "autoupdate": {
+        "url": "https://www.ollydbg.de/odbg$version.zip"
+    }
+}

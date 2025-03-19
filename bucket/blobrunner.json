@@ -1,0 +1,39 @@
+{
+    "version": "0.0.5",
+    "description": "Quickly debug shellcode extracted during malware analysis.",
+    "homepage": "https://github.com/OALabs/BlobRunner",
+    "license": "MIT",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/OALabs/BlobRunner/releases/download/v0.0.5/blobrunner.zip",
+            "hash": "369ed39086e40fe9ae5404b52cafe0a9b747abb11f2d33d73e5a51097d0ae2a4",
+            "bin": [
+                [
+                    "blobrunner.exe",
+                    "blobrunner_32"
+                ]
+            ]
+        },
+        "64bit": {
+            "url": "https://github.com/OALabs/BlobRunner/releases/download/v0.0.5/blobrunner64.zip",
+            "hash": "325e3e26ccdce53cdd8b6665c7ed7d1765fc1c56cd088a5b4433593682c9f503",
+            "bin": [
+                [
+                    "blobrunner64.exe",
+                    "blobrunner_64"
+                ]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/OALabs/BlobRunner/releases/download/v$version/blobrunner32.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/OALabs/BlobRunner/releases/download/v$version/blobrunner64.zip"
+            }
+        }
+    }
+}

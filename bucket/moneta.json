@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "description": "Moneta is a memory forensics tool for extracting and analyzing .NET assemblies from process memory.",
+    "homepage": "https://github.com/forrest-orr/moneta",
+    "license": "GPL-3.0",
+    "url": "https://github.com/forrest-orr/moneta/releases/download/1.0/Moneta64.exe",
+    "hash": "245e9253cb2cfb6b14ad0c00f42ce880d366797d8c3a194d832f4f796874c8b4",
+    "bin": [
+        [
+            "Moneta64.exe",
+            "moneta"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/forrest-orr/moneta/releases/download/$version/Moneta64.exe"
+    }
+}

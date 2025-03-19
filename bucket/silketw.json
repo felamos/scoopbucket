@@ -1,0 +1,23 @@
+{
+    "version": "0.8",
+    "description": "SilkETW is a flexible C# wrapper for ETW, designed to be easy to configure and use.",
+    "homepage": "https://github.com/mandiant/SilkETW",
+    "license": "Apache-2.0",
+    "url": "https://github.com/mandiant/SilkETW/releases/download/v0.8/SilkETW_SilkService_v8.zip",
+    "hash": "6c612c406844c72cde51bcd0660ca6bb704656549043cb5a8b8bbba5fe3d8dc3",
+    "extract_dir":"v8",
+    "bin": [
+        [
+            "SilkService/SilkService.exe",
+            "SilkService"
+        ],
+        [
+            "SilkETW/SilkETW.exe",
+            "silkETW"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/mandiant/SilkETW/releases/download/v$version/SilkETW_SilkService_v$version.zip"
+    }
+}

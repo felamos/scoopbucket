@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "description": " Decompile py2exe Python 3 generated EXEs",
+    "homepage": "https://github.com/NVISOsecurity/decompile-py2exe",
+    "license": "Unknown",
+    "url": "https://github.com/zzhaq/Toolbox/releases/download/v1.3/Py2ExeDecompiler.zip",
+    "hash": "d1f1e326b6a584d17a4c142af49822778c5e54e73581fe2c77f83877745ceb15",
+    "extract_dir": "Py2ExeDecompiler",
+    "bin": [
+        "Py2ExeDecompiler.exe",
+        "py2exedecompiler"
+    ]
+}

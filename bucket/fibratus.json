@@ -1,0 +1,15 @@
+{
+    "version": "2.3.0",
+    "description": "Fibratus is a tool for exploration and tracing of the Windows kernel.",
+    "homepage": "https://github.com/rabbitstack/fibratus",
+    "license": "Apache-2.0",
+    "url": "https://github.com/rabbitstack/fibratus/releases/download/v2.3.0/fibratus-2.3.0-amd64.msi",
+    "hash": "B2DDA288494D09B483F0FCC1955772D60002D0DB5F02F64E886460BB9CA0946A",
+    "installer": {
+        "msi": true
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/rabbitstack/fibratus/releases/download/v$version/fibratus-$version-amd64.msi"
+    }
+}

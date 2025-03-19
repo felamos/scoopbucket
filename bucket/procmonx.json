@@ -1,0 +1,19 @@
+{
+    "version": "0.21-beta",
+    "description": "ProcMonX is an advanced process monitoring tool for Windows.",
+    "homepage": "https://github.com/zodiacon/ProcMonX",
+    "license": "MIT",
+    "url": "https://github.com/zodiacon/ProcMonX/releases/download/0.21-beta/ProcMonX.0.21.zip",
+    "hash": "da0ee0f98ffee21f7a97d985b7f0481a98acb7746a83ad23007e84b664241e95",
+    "extract_dir": "ProcMonX.0.21",
+    "bin": [
+        [
+            "ProcMonX.exe",
+            "procmonx"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/zodiacon/ProcMonX/releases/download/$version/ProcMonX.$version.zip"
+    }
+}

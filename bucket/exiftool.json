@@ -1,0 +1,18 @@
+{
+    "version": "13.25",
+    "description": "ExifTool is a platform-independent Perl library plus a command-line application for reading, writing, and editing meta information in a wide variety of files.",
+    "homepage": "https://exiftool.org/",
+    "license": "GPL-1.0-or-later",
+    "url": "https://exiftool.org/exiftool-13.25_64.zip",
+    "hash": "7ba98f089d6979baad4605b29f184de3653d7f80b83a8469587dfd1cdfda4dbb",
+    "extract_dir": "exiftool-13.25_64",
+    "bin": [
+        [
+            "exiftool(-k).exe",
+            "exiftool"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://exiftool.org/exiftool-$version_64.zip"
+    }
+}

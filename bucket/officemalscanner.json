@@ -1,0 +1,27 @@
+{
+    "version": "latest",
+    "description": "OfficeMalScanner is a forensic tool to scan Microsoft Office documents for traces of exploits and shellcode.",
+    "homepage": "http://www.reconstructer.org/main.html",
+    "license": "Unknown",
+    "url": "https://github.com/fboldewin/reconstructer.org/raw/master/OfficeMalScanner.zip",
+    "hash": "316e7c8f1c67eb89c70de6f0515a514d7f41def9a9d91e2cba7a2550852fede4",
+    "extract_dir": "OfficeMalScanner",
+    "bin": [
+        [
+            "OfficeMalScanner.exe",
+            "officemalscanner"
+        ],
+        [
+            "RTFScan.exe",
+            "rtfscan"
+        ],
+        [
+            "DisView.exe",
+            "disview"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/fboldewin/reconstructer.org/raw/master/OfficeMalScanner.zip"
+    }
+}
