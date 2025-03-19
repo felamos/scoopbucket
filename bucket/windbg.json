@@ -1,39 +1,23 @@
 {
-    "version": "1.2407.24003.0",
-    "description": "WinDbg is a debugger that can be used to analyze crash dumps, debug live user-mode and kernel-mode code, and examine CPU registers and memory.",
-    "homepage": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
-    "license": "Proprietary",
-    "url": "https://windbg.download.prss.microsoft.com/dbazure/prod/1-2407-24003-0/windbg.msixbundle#/dl.7z",
-    "hash": "c8f65723463558e6923768fb363cb94d85cf171e21f6053cd893a910a5bf2c95",
+    "version": "10.0.22621.1",
+    "description": "Windows SDK - Includes Debugging Tools for Windows (WinDbg).",
+    "homepage": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
+    "license": "Freeware",
+    "url": "https://go.microsoft.com/fwlink/?linkid=2305205",
+    "hash": "332c6a3bb40717387608a851154da5f2aacbc8922323f26ad764760d28953b75",
     "installer": {
         "script": [
-            "$metadataPath = Join-Path $dir 'AppxMetadata'",
-            "$xml = [xml](Get-Content (Join-Path $metadataPath 'AppxBundleManifest.xml'))",
-            "Remove-Item $metadataPath -Force -Recurse",
-            "$x64Package = $xml.Bundle.Packages.Package | Where-Object Architecture -eq 'x64'",
-            "Write-Host -ForegroundColor Yellow ('Expanding {0} ({1}) v{2}' -f $x64Package.FileName, $x64Package.Architecture, $x64Package.Version)",
-            "Expand-Archive (Join-Path $dir $x64Package.FileName)  -DestinationPath (Join-Path $dir Application)",
-            "Get-ChildItem -File $dir | Remove-Item"
+            "Start-Process -FilePath \"$dir\\sdksetup.exe\" -ArgumentList '/features OptionId.WindowsDesktopDebuggers /quiet /norestart' -Wait"
         ]
     },
-    "shortcuts": [
-        [
-            "Application/DbgX.Shell.exe",
-            "WinDbg"
-        ]
-    ],
     "bin": [
-        [
-            "Application/DbgX.Shell.exe",
-            "WinDbg"
-        ]
+        "C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x64\\windbg.exe"
     ],
     "checkver": {
-        "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/windbg-release-notes",
-        "regex": "<h2 id=\"\\d+\">(?<major>\\d{1,5})\\.(?<minor>\\d{1,5})\\.(?<build>\\d{1,5})\\.(?<revision>\\d{1,5})</h2>",
-        "replace": "${major}.${minor}.${build}.${revision}"
+        "url": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
+        "regex": "Windows SDK ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://windbg.download.prss.microsoft.com/dbazure/prod/$matchMajor-$matchMinor-$matchBuild-$matchRevision/windbg.msixbundle#/dl.7z"
+        "url": "https://go.microsoft.com/fwlink/?linkid=2305205"
     }
 }
