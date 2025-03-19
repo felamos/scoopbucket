@@ -5,9 +5,6 @@
     "license": "GPL-2.0-only",
     "checkver": "github",
     "extract_dir": "volatility_2.6_win64_standalone",
-    "suggest": {
-        "python": "python27"
-    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/volatilityfoundation/volatility/releases/download/2.6.1/volatility_2.6_win64_standalone.zip",

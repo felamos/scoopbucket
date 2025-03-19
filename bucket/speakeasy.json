@@ -1,0 +1,20 @@
+{
+    "version": "1.6.1",
+    "homepage": "https://github.com/mandiant/speakeasy",
+    "description": "Speakeasy Windows sandbox for malware analysis.",
+    "license": "https://github.com/mandiant/speakeasy/blob/master/LICENSE.txt",
+    "depends": "python39",
+    "url": "https://github.com/mandiant/speakeasy/archive/refs/heads/master.zip",
+    "hash": "e38902361d7062ef70b7fe5f17259652ce477fbcfe449b17e20df55d6b17a886",
+    "extract_dir": "speakeasy-master",
+    "pre_install": "python3.exe -m pip install -r \"$dir\\requirements.txt\";cd $dir;python3.exe \"$dir\\setup.py\" install",
+    "checkver": {
+        "github": "https://github.com/mandiant/speakeasy"
+    },
+    "autoupdate": {
+        "url": "https://github.com/mandiant/speakeasy/archive/refs/heads/master.zip",
+        "hash": {
+            "url": "$baseurl/$matchHead.zip"
+        }
+    }
+}
