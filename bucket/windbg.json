@@ -3,7 +3,7 @@
     "description": "Windows SDK - Includes Debugging Tools for Windows (WinDbg).",
     "homepage": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
     "license": "Freeware",
-    "url": "https://go.microsoft.com/fwlink/?linkid=2305205",
+    "url": "https://download.microsoft.com/download/bcc701de-c6bf-4f75-b7e7-e53add04545c/KIT_BUNDLE_WINDOWSSDK_MEDIACREATION/winsdksetup.exe",
     "hash": "332c6a3bb40717387608a851154da5f2aacbc8922323f26ad764760d28953b75",
     "installer": {
         "script": [
@@ -12,12 +12,5 @@
     },
     "bin": [
         "C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x64\\windbg.exe"
-    ],
-    "checkver": {
-        "url": "https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/",
-        "regex": "Windows SDK ([\\d.]+)"
-    },
-    "autoupdate": {
-        "url": "https://go.microsoft.com/fwlink/?linkid=2305205"
-    }
+    ]
 }
