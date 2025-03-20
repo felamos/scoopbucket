@@ -1,0 +1,12 @@
+{
+    "version": "7.7.05",
+    "description": "Malcode Analyst Pack",
+    "homepage": "https://sandsprite.com/CodeStuff/",
+    "license": "unknown",
+    "url": "https://sandsprite.com/CodeStuff/map_setup.exe",
+    "hash": "d869c708d8e166656aba6d26aba78502d2bffdb674e85cb0c860669c347b66f5",
+    "pre_install": "if (!(is_admin)) { error 'Admin privileges are required.'; break }",
+    "installer": {
+        "script": "Start-Process -FilePath \"$dir\\$fname\" -ArgumentList '/silent', '/verysilent', '/norestart' -Wait -NoNewWindow"
+    }
+}
