@@ -7,7 +7,7 @@
     "hash": "332c6a3bb40717387608a851154da5f2aacbc8922323f26ad764760d28953b75",
     "installer": {
         "script": [
-            "Start-Process -FilePath \"$dir\\sdksetup.exe\" -ArgumentList '/features OptionId.WindowsDesktopDebuggers /quiet /norestart' -Wait"
+            "Start-Process -FilePath \"$dir\\winsdksetup.exe\" -ArgumentList '/features OptionId.WindowsDesktopDebuggers /quiet /norestart' -Wait"
         ]
     },
     "bin": [
