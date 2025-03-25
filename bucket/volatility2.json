@@ -12,6 +12,7 @@
         }
     },
     "bin": [
-        "volatility_2.6_win64_standalone.exe"
+        "volatility_2.6_win64_standalone.exe",
+        "volatility2"
     ]
 }
