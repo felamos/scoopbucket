@@ -15,7 +15,6 @@
         "url": "https://github.com/WithSecureLabs/chainsaw/releases/download/v$version/chainsaw_x86_64-pc-windows-msvc.zip"
     },
     "bin": [
-        "chainsaw.exe",
-        "chainsaw"
+        "chainsaw.exe"
     ]
 }
